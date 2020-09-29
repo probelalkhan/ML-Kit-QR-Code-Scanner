@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="#2B2B2B"
+        tools:text="Simplified Coding - QR Code Reader" />
+
+    <TextView
+        android:id="@+id/text_view_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#6C6C6C"
+        android:textSize="10sp"
+        tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed fermentum odio. Donec laoreet nisi nisl. Praesent at mauris enim. Suspendisse metus quam, congue eu nunc a, lacinia placerat orci" />
+
+    <TextView
+        android:id="@+id/text_view_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#002865"
+        tools:text="https://www.youtube.com/SimplifiedCoding?sub_confirmation=1" />
+
+    <TextView
+        android:id="@+id/text_view_visit_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:background="#00A5E6"
+        android:paddingLeft="12dp"
+        android:paddingTop="4dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="4dp"
+        android:text="Visit Link"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
